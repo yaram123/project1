@@ -7,6 +7,7 @@ import Group2 from './Group2.png'
 import Vector3 from './Vector3.png'
 import Vector4 from './Vector4.png'
 import Group3 from './Group3.png'
+import Rectangle1 from './Rectangle1.png'
 // import {Link} from "react-router-dom" 
 
 function Stores() {
@@ -27,8 +28,18 @@ function Stores() {
        <p className='follow1'>+follow</p>
        <img src={Rectangle} className='Rectangle'></img>
        <div className='pricesheet'>
-        <img src={Group2}></img>
-        <img src={Group2}></img>
+        <div className='box'>
+          <img src={Rectangle1} className='serumimage'></img>
+          <p className='name'>zayn & MYZA</p>
+          <p className='acid'>hyaluronic Acid 1.5% Face Serum</p>
+          <p className='price'>525</p>
+        </div>
+        <div className='box'>
+          <img src={Rectangle1} className='serumimage'></img>
+          <p className='name'>zayn & MYZA</p>
+          <p className='acid'>hyaluronic Acid 1.5% Face Serum</p>
+          <p className='price'>525</p>
+        </div>
        </div>
        <img src={Group3}></img>
        <img src={Vector3} className='save'></img>

@@ -122,3 +122,28 @@
   margin-left: 5px;
   border: none;
 }
+.box{
+  border: 2px solid black;
+  width: 181px;
+  height: 78px;
+  font-size: 10px;
+  row-gap: 2px;
+}
+.name{
+  margin-top: -70px;
+  margin-left: 70px;
+  font-size: 14px;
+}
+.acid{
+  margin-left: 70px;
+  margin-top: -8px;
+}
+.price{
+  margin-left: 70px;
+  font-size: 18px;
+  margin-top: -10px;
+}
+.serumimage{
+  margin-left: 5px;
+  margin-top: 5px;
+}
