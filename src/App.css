@@ -36,3 +36,89 @@
     transform: rotate(360deg);
   }
 }
+.main{
+  border: 2px solid black;
+  height: auto;
+  max-width: 425px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.postername{
+  margin-left: -250px;
+  font-weight: bolder;
+}
+.posterid{
+  margin-left: -250px;
+  margin-top: -10px;
+}
+.follow{
+  margin-left: 300px;
+  margin-top: -65px;
+  color: #61dafb;
+}
+.followers{
+  margin-left: 250px;
+  margin-top: -10px;
+}
+.group{
+  margin-top: 15 px;
+}
+.group1{
+  margin-top: 15px;
+}
+.posts{
+  margin-left: -350px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.collections{
+  margin-top: -45px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.posterid1{
+  margin-top: -5px;
+  margin-left: 5px;
+}
+.posted{
+  margin-top: -15px;
+  margin-left: 5px;
+}
+.follow1{
+  margin-left: 330px;
+  margin-top: -60px;
+  color: #61dafb;
+}
+.Rectangle{
+  margin-top: 10px;
+}
+.pricesheet{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.save{
+  margin-top: 15px;
+  margin-left: 340px;
+}
+.share{
+  margin-left: 10px;
+}
+.text{
+  width: 330px;
+  height: 23px;
+  border-radius: 20px;
+}
+.button{
+  width: 60px;
+  border-radius: 20px;
+  background-color: palevioletred;
+  color: white;
+  margin-left: 5px;
+  border: none;
+}
